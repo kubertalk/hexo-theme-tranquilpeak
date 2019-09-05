@@ -1,5 +1,26 @@
 <footer id="footer" class="main-content-wrap">
     <span class="copyrights">
         Copyrights &copy; <%= date(new Date(), 'YYYY') + ' ' + config.author || config.title %>. All Rights Reserved.
+    </span><br>
+    <span class="upyun-image">
+    	<%= __('Powered by') %> <a href="http://hexo.io/" target="_blank">Hexo</a>&nbsp&nbsp&nbsp&nbsp
+        <%= __('CDN Accelerating Supported by') %><a href="https://www.upyun.com/" target="_blank" rel="external nofollow">
+        	<img src="/assets/images/upyunLogo.png" height="20" width="50"/>
+       	</a>
     </span>
+
+<!--不蒜子统计
+<br>
+<% if (theme.busuanzi && theme.busuanzi.enable){ %>
+    <span id="busuanzi_container_site_pv">
+            PV&nbsp<span id="busuanzi_value_site_pv"></span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span id="busuanzi_container_site_uv" style='display:none'>
+            Vistors&nbsp<span id="busuanzi_value_site_uv"></span>
+    </span>
+    <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+	<% } %> 
+-->
+
 </footer>
