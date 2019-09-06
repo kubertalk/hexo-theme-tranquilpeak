@@ -31,6 +31,11 @@
         <div class="main-content-wrap">
             <%- postContent %>
             <%- partial('post/gallery') %>
+            <!-- my-copyright -->
+            <% if(post.copyright == true) { %>
+                <%- partial('post/my-copyright') %>
+            <% } %>
+            <!-- my-copyright -->
         </div>
     </div>
     <div id="post-footer" class="post-footer main-content-wrap">

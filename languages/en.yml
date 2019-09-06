@@ -78,6 +78,7 @@ post:
     image:
         one: "image"
         other: "%d images"
+    copyright: "copyright"
 
 author:
     # Your biography (Markdown and HTML supported)

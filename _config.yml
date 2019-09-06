@@ -194,7 +194,7 @@ gitment:
     # Switch
     enable: false
     # Your Github ID (Github username):
-    github_id:
+    github_id: kubertalk
     # The repo to store comments:
     repo:
     # Your client ID:
@@ -246,7 +246,10 @@ fb_admin_ids:
 # Your Facebook app id used to connect your blog with your facebook app account (Facebook Insights). E.g : 9841307
 fb_app_id:
 
-
+# 是否开启访问量统计功能(不蒜子)
+busuanzi:
+ enable: true
+ 
 # ---------------
 # Sharing options
 # ---------------
